@@ -1,0 +1,117 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "roboto", "sans-serif";
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  header ul li a {
+  transition: .3s;
+  }
+  header ul li a:hover {
+  color: #F40F00;
+  }
+  
+  /* Gaya umum untuk header dan main-container */
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  
+  }
+  
+  .main-container {
+    width: 100%;
+    padding: 0 2rem;
+  }
+  
+  header {
+  background-image: url('img/navbar_bg.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 200px 0;
+  position: relative;
+          }
+  
+  
+  /* Gaya untuk navbar */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+  }
+   
+  
+  /* Gaya untuk logo */
+  .logo{
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-left: 2rem;
+    margin-top: -350px;
+  }
+  
+  .logo a {
+    color: black;
+  }
+  
+  /* Gaya untuk navigasi */
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 3.5rem;
+  }
+  
+  nav ul li {
+    margin-left: 2rem;
+    margin-top: -280px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff; /* Sesuaikan dengan warna teks Anda */
+  }
+  
+  /* Gaya untuk memastikan navigasi berada di tengah kanan */
+  .nav nav {
+    margin-left: auto;
+  }
+  
+  .btn {
+    color: #ffffff;
+      -webkit-text-stroke-width: 1;
+      -webkit-text-stroke-color: #000;
+      border-color: rgba(255, 255, 255, 1);
+      border-style: solid;
+      border-width: 1px;
+      border-radius: 10px;
+      background-color: #331b3b;
+      align-self: stretch;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.26px;
+      justify-content: center;
+      padding: 16px 41px;
+      font: 700 13px/137.3% Hind Vadodara, -apple-system, Roboto, Helvetica,
+        sans-serif;
+    }
+    
+    .text h2{
+      margin-left: 50px;
+      margin-top: -50px;
+      font-size: 60px;
+    }
