@@ -1,0 +1,49 @@
+#Booktime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/bgbook.png');
+    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+    background-position: center;
+  }
+  
+  .time-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .time-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .time-left img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .time-right .react-datetime-picker {
+    width: 100%;
+    max-width: none;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  

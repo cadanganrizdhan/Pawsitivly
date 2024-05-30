@@ -1,0 +1,57 @@
+#Bookcal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+    background-image: url('../assets/bgbook.png');
+    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+    background-position: center;
+  }
+  
+  .book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 70px;
+    background-color: white;
+  }
+  
+  .book-grid {
+    display: grid;
+    grid-template-columns: .45fr .55fr;
+    align-items: start;
+    border: 1px solid #ececec;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .book-left img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .book-right .react-calendar {
+    width: 100%;
+    max-width: none;
+    border: 1px solid #c9c9c9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-calendar {
+    width: 100%;
+    border: none;
+  }
+  
+  .book-left p {
+    margin-top: 10px;
+  }
+  
