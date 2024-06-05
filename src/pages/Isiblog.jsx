@@ -2,7 +2,12 @@ import React from 'react'
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import logo from '../assets/blog1.png'
-import logo1 from 
+import logo1 from '../assets/search.png'
+import logo2 from '../assets/list1.png'
+import logo3 from '../assets/list2.png'
+import logo4 from '../assets/list4.png'
+import logo5 from '../assets/list5.png'
+import logo6 from '../assets/list6.png'
 import '../style/Isiblog.css'
 
 const Isiblog = () => {
@@ -29,16 +34,43 @@ const Isiblog = () => {
             <div className="search-container">
                 <input type="text" placeholder="Search" />
                 <button className="search-button">
-                    <img src="assets/search.png" alt="Search" />
+                    <img src={logo1} alt="Search" />
                 </button>
             </div>
             <div className="sidebar-articles">
                 <h2>Artikel Terkait</h2>
                 <div className="sidebar-article">
-                    <img src="assets/list1.png" alt="Artikel 1" />
+                    <img src={logo2} alt="Artikel 1" />
                     <p>Pentingnya Janji Temu Rutin Konsultasi Online</p>
                 </div>
-                {/* Sisanya dari artikel terkait Anda */}
+            </div>    
+            <div className="sidebar-articles">
+                <h2>Artikel Terkait</h2>
+                <div className="sidebar-article">
+                    <img src={logo3} alt="Artikel 2" />
+                    <p>Kesehatan Mental Hewan Peliharaan</p>
+                </div>
+            </div>
+            <div className="sidebar-articles">
+                <h2>Artikel Terkait</h2>
+                <div className="sidebar-article">
+                    <img src={logo4} alt="Artikel 3" />
+                    <p>Merawat Hewan Peliharaan Dimusim Panas</p>
+                </div>
+            </div>
+            <div className="sidebar-articles">
+                <h2>Artikel Terkait</h2>
+                <div className="sidebar-article">
+                    <img src={logo5} alt="Artikel 4" />
+                    <p>Pentingnya Vaksinasi Untuk Hewan Peliharaan</p>
+                </div>
+            </div>
+            <div className="sidebar-articles">
+                <h2>Artikel Terkait</h2>
+                <div className="sidebar-article">
+                    <img src={logo6} alt="Artikel 5" />
+                    <p>Perawatan Gigi dan Mulut Pada Hewan</p>
+                </div>
             </div>
         </aside>
     </div>
