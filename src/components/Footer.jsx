@@ -1,4 +1,9 @@
 import '../style/Footer.css'
+import time from '../assets/time.png'
+import phone1 from '../assets/phone.png'
+import ig from '../assets/ig.png'
+import fb from '../assets/fb.png'
+import x from '../assets/x.png'
 
 const Footer = () => {
   return (
@@ -19,15 +24,22 @@ const Footer = () => {
               <div className="self-start text-base font-bold text-zinc-800">
                 About
               </div>
-              <div className="self-end mt-6 text-sm leading-5 text-black">
-                (+62)83878907645
-              </div>
             </div>
             <div className="flex gap-0 mt-5 text-base text-black">
               <img
                 loading="lazy"
-                srcSet="..."
-                className="shrink-0 w-14 aspect-[1.3]"
+                src={phone1}
+                paddingRight="5px"
+                className="shrink-0 w-10 h-10"
+              />
+              <div className="flex-auto my-auto">(+62)83878907645</div>
+            </div>
+            <div className="flex gap-0 mt-5 text-base text-black">
+              <img
+                loading="lazy"
+                src={time}
+                paddingRight="5px"
+                className="shrink-0 w-12 h-10"
               />
               <div className="flex-auto my-auto">Mon - Sun: 8AM - 8PM</div>
             </div>
@@ -56,18 +68,18 @@ const Footer = () => {
             <div className="flex gap-5 mt-4 max-md:pr-5">
               <img
                 loading="lazy"
-                srcSet="..."
-                className="shrink-0 w-8 aspect-[0.97]"
+                src={ig}
+                className="shrink-0 w-10 h-10"
               />
               <img
                 loading="lazy"
-                srcSet="..."
-                className="shrink-0 aspect-[1.25] w-[41px]"
+                src={fb}
+                className="shrink-0 w-10 h-10"
               />
               <img
                 loading="lazy"
-                srcSet="..."
-                className="shrink-0 aspect-[1.15] w-[38px]"
+                src={x}
+                className="shrink-0 w-10 h-10"
               />
             </div>
           </div>

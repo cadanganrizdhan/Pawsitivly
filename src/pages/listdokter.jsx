@@ -1,37 +1,45 @@
 import React from 'react'
-import Navbar from '../components/Navbar.jsx'
+import Navbarw from '../components/Navbarw.jsx'
 import Footer from '../components/Footer.jsx'
-import '../style/Home.css'
+import Dr1 from '../assets/dr1.png'
+import Dr2 from '../assets/dr2.png'
+import Dr3 from '../assets/dr3.png'
+import '../style/Listdokter.css'
 
-const Beranda = () => {
+const Listdokter = () => {
   return (
     <>
     <div>
-      <Navbar/>
-    </div>
-      <div>
+      <Navbarw />
+      </div>
+    <section id='bio'>
+      <div className="text">
+        <h1><b>Online Consultation</b></h1>
+        <p>Chat with the professionals</p>
+      </div>
+    </section>
+      <section id='card'>
       <div className="main-card">
-        <h1>Meet Our Veterinarian!</h1>
+        <h1><b>Meet Our Veterinarian!</b></h1>
         <div className="card-container">
           <div className="card">
-            <img src="img/dr1.png" alt="Veterinarian 1" />
+            <img src={Dr1} alt="Veterinarian 1" />
             <p><b>DRH. Sri January</b></p>
-            <button className="btn">Learn More</button>
+            <a href="Bookcal"><button className="btn">Learn More</button></a>
           </div>
           <div className="card">
-            <img src="img/dr2.png" alt="Veterinarian 2" />
+            <img src={Dr2} alt="Veterinarian 2" />
             <p><b>DRH. Abiv Yanto</b></p>
             <button className="btn">Learn More</button>
           </div>
           <div className="card">
-            <img src="img/dr3.png" alt="Veterinarian 3" />
+            <img src={Dr3} alt="Veterinarian 3" />
             <p><b>DRH. Yakti Novi</b></p>
             <button className="btn">Learn More</button>
           </div>
         </div>
       </div>
-
-      </div>
+      </section>
       <div>
       <Footer/>
       </div>
@@ -39,4 +47,4 @@ const Beranda = () => {
   )
 }
 
-export default Beranda
+export default Listdokter

@@ -57,7 +57,7 @@ function FAQ() {
       </div>
 
       
-      <div className="dropdown">
+      <div className="dropdown1">
         <div className="faq-item">
         <h1><button onClick={toggleFAQ1} className="dropdown-btn"><span className={isOpen1 ? "arrow up" : "arrow down"}></span></button>Jam berapa pawsitively mulai beroperasi? Apakah Minggu tetap buka?</h1>
         {isOpen1 && (
@@ -71,8 +71,7 @@ function FAQ() {
         )}
         </div>
       </div> 
-      
-      <div className="dropdown">
+      <div className="dropdown1">
         <div className="faq-item">
         <h1><button onClick={toggleFAQ2} className="dropdown-btn"><span className={isOpen2 ? "arrow up" : "arrow down"}></span></button>Apakah bisa melakukan appointment?</h1>
         {isOpen2 && (
@@ -85,7 +84,7 @@ function FAQ() {
         </div>
       </div>
 
-      <div className="dropdown">
+      <div className="dropdown1">
         <div className="faq-item">
         
         <h1><button onClick={toggleFAQ3} className="dropdown-btn"><span className={isOpen3 ? "arrow up" : "arrow down"}></span></button>Apakah tersedia layanan pick up delivery?</h1>
@@ -100,7 +99,7 @@ function FAQ() {
         </div>
       </div>
 
-      <div className="dropdown">
+      <div className="dropdown1">
         <div className="faq-item">
         
         <h1><button onClick={toggleFAQ4} className="dropdown-btn"><span className={isOpen4 ? "arrow up" : "arrow down"}></span></button>Jam berapa saja pasien boleh dibesuk?</h1>
@@ -115,7 +114,7 @@ function FAQ() {
         </div>
       </div>
 
-      <div className="dropdown">
+      <div className="dropdown1">
         <div className="faq-item">
         
         <h1><button onClick={toggleFAQ5} className="dropdown-btn"><span className={isOpen5 ? "arrow up" : "arrow down"}></span></button>Apakah Pawsitively memiliki layanan rawat inap untuk penyakit menular?</h1>

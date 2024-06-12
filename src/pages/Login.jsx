@@ -20,11 +20,11 @@ const Login = () => {
           <input type="password" placeholder="Enter your password" />
         </div>
         <div className="login-button">
-          <button>Login</button>
+          <a href="BERANDA"><button>Login</button></a>
         </div>
         
         <div className="login-signup">
-          <p>Don't have an account? <a href="#signup">Sign Up</a></p>
+          <p>Don't have an account? <a href="Signup">Sign Up</a></p>
         </div>
       </div>
     </div>

@@ -1,28 +1,30 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import TambahForumDiskusi from './components/TambahForumDiskusi.js';
-import './style/tambahforumdiskusi.css';
+import Navbar from '../components/Navbar.jsx';
+import Footer from '../components/Footer.jsx';
+import '../style/Tambahforumdiskusi.css';
 
-
-const TambahForumDiskusi = () => {
+const Tambahforumdiskusi = () => {
   return (
     <>
+    <div>
       <Navbar />
-      <main>
-        <div className="post-thread">
-          <h2>Post Thread</h2>
-          <input type="text" placeholder="Thread Title" />
-          <textarea placeholder="Write your thread here..."></textarea>
-          <div className="buttons">
-            <button>Add Attachment</button>
-            <button>Post Thread</button>
-          </div>
+    </div>
+    <main>
+      <div className="post-thread">
+        <h2>Post Thread</h2>
+        <input type="text" placeholder="Thread Title" />
+        <textarea placeholder="Write your thread here..."></textarea>
+        <div className="buttons">
+          <button>Add Attachment</button>
+          <button>Post Thread</button>
         </div>
-      </main>
+      </div>
+    </main>
+    <div>
       <Footer />
+    </div>
     </>
   );
 }
 
-export default TambahForumDiskusi;
+export default Tambahforumdiskusi;

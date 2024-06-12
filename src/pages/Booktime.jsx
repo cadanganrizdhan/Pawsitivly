@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
-import DateTimePicker from 'react-datetime-picker';
-import 'react-calendar/dist/Calendar.css';
-import 'react-datetime-picker/dist/DateTimePicker.css';
+import TimePicker from 'react-time-picker';
+import 'react-time-picker/dist/TimePicker.css';
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
 import '../style/Booktime.css'
 import Dr1 from '../assets/dr1.png'
 
 const Booktime = () => {
-    const [date, setDate] = useState(new Date());
+  const [time, setTime] = useState('10:00');
 
   return (
     <>
@@ -16,6 +15,9 @@ const Booktime = () => {
       <Navbar/>
     </div>
     <section id='Booktime'>
+    <div className="time">
+        <h5><b>Book Appointment</b></h5>
+        </div>
         <div className="time-container">
       <div className="time-grid">
         <div className="time-left">
@@ -28,17 +30,19 @@ const Booktime = () => {
           </p>
         </div>
         <div className="time-right">
-          <DateTimePicker
-            onChange={setDate}
-            value={date}
-            className="datetime-picker"
-            format="y-MM-dd h:mm a"
+        <TimePicker
+            onChange={setTime}
+            value={time}
+            className="time-picker"
             disableClock={true}
+            format="h:mm a"
             hourPlaceholder="hh"
             minutePlaceholder="mm"
             clearIcon={null}
           />
+          
         </div>
+        <a href="Bookfix"><button className="btntime">Next</button></a>
       </div>
       </div>
     </section>

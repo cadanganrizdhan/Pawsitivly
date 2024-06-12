@@ -1,37 +1,47 @@
 import React from 'react'
-import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
-import Logo from '../assets/text1.png'
-import '../style/Home.css'
+import Imgabout from '../assets/imgabout.png'
+import '../style/About.css'
+import Navbarw from '../components/Navbarw.jsx'
 
-const Beranda = () => {
+const Aboutus = () => {
   return (
     <>
     <div>
-      <Navbar/>
-    </div>
-      <div>
-      <section id="HomeAbout">
-        <div className="home">
-          <img src={Logo} alt=""/>
-          <p>Temukan perawatan kesehatan hewan Anda di sini! Dengan layanan online kami, Anda dapat dengan mudah menjadwalkan janji temu dengan dokter hewan terpercaya, mencari informasi tentang perawatan hewan terkini, dan bergabung dengan komunitas pecinta hewan yang peduli</p>
-          <a href="">
-            <button className="btn1">Get Started</button>
-          </a>
-        </div>
-      </section>
-
-      <section id="Aboutus">
-        <div className="home-left">
-          <img src={Logo} alt=""/>
-          <p>Temukan perawatan kesehatan hewan Anda di sini! Dengan layanan online kami, Anda dapat dengan mudah menjadwalkan janji temu dengan dokter hewan terpercaya, mencari informasi tentang perawatan hewan terkini, dan bergabung dengan komunitas pecinta hewan yang peduli</p>
-          <a href="">
-            <button className="btn1">Get Started</button>
-          </a>
-        </div>
-      </section>
-
+      <Navbarw />
       </div>
+    <section id='bio'>
+      <div className="text">
+        <h1><b>About Me</b></h1>
+      </div>
+    </section>
+      
+    <section className="home">
+        <div className="home-left">
+          <p>Ilmu terbaik yang kami miliki sebagai modal untuk memperlakukan
+            <br />hewan peliharaan Anda dengan kasih sayang dan cinta adalah pengalaman.
+            <br />Srijan Vetcare Clinic telah melayani Anda selama lebih dari dua belas tahun,
+            didukung<br />oleh Srijan Pet Service,yang telah hadir untuk memenuhi kebutuhan dan
+            kebutuhan hewan<br />peliharaan Anda dengan kualitas terbaik.
+            <br />
+            <br />
+            Klien kami adalah anggota masyarakat, pemilik, pecinta, dan partner hewan,
+            <br />yang berhak atas pelayanan terbaik untuk teman hidup paling setia mereka.
+            <br />Mereka adalah aset terpenting yang dimiliki oleh kami.
+            <br />
+            <br />
+            Dengan menyediakan tempat kerja yang nyaman dan memiliki peralatan dan alat
+            medis terkini,<br />kami terus memperbaiki dan mengembangkan staf kami untuk selalu memberikan
+            layanan <br />yang lebih baik kepada pelanggan kami.
+            <br />
+          </p>
+      </div>
+
+        <div className="home-right">
+            <img src={Imgabout} alt=""/>
+        </div>
+    </section>
+
       <div>
       <Footer/>
       </div>
@@ -39,4 +49,4 @@ const Beranda = () => {
   )
 }
 
-export default Beranda
+export default Aboutus

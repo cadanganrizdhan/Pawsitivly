@@ -1,27 +1,53 @@
-import React from 'react'
-import '../style/Navbar.css'
+import React, { useState } from 'react';
+import '../style/Navbar.css';
 import logo from "../assets/logo.png";
-import '../style/Home.css'
+import '../style/Home.css';
 
 const Navbar = () => {
-  return (
-    <nav className='flex- between'>
-    <div class="wrapper">
-    <div className="logo">
-        <img src={logo} alt=""/>
-    </div>
-        <div class="menu">
-            <ul>
-                <li><a href="BERANDA">Home</a></li>
-                <li><a href="#Aboutus">About Us</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="" class="btnnav">SIGN IN</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-  )
-}
+    const [fix, setFix] = useState(false);
+    const [dropdownOpen, setDropdownOpen] = useState(false);
 
-export default Navbar
+    function setFixed() {
+        if (window.scrollY > 10){
+            setFix(true);
+        } else {
+            setFix(false);
+        }
+    }
+
+    window.addEventListener("scroll", setFixed);
+
+    const toggleDropdown = () => {
+        setDropdownOpen(!dropdownOpen);
+    };
+
+    return (
+        <header>
+            <nav className={fix ? 'navbar fixed' : 'navbar'}>
+                <div className="logo">
+                    <img src={logo} alt="Logo" />
+                </div>
+                <div className="menu">
+                    <ul>
+                        <li><a href="BERANDA">Home</a></li>
+                        <li><a href="Aboutus">About Us</a></li>
+                        <li onMouseEnter={toggleDropdown} onMouseLeave={toggleDropdown}>
+                            <a href="">Service</a>
+                            {dropdownOpen && (
+                                <ul className="dropdown">
+                                    <li><a href="Forumdiskusi">Forum Discussion</a></li>
+                                    <li><a href="Listdokter">Online Consultation</a></li>
+                                    <li><a href="Map">Nearest Vet and Petshop</a></li>
+                                </ul>
+                            )}
+                        </li>
+                        <li><a href="Listblog">Blog</a></li>
+                        <li><a href="Singup" className="btnnav">SIGN IN</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    );
+};
+
+export default Navbar;

@@ -1,0 +1,131 @@
+/* signup.css */
+#Signup{
+    background-image: url('../assets/login.png');
+    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+    background-position: center;
+}
+
+/* Login.css */
+.signup-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the singup grid to the right */
+    align-items: center;
+    height: 100vh;
+    padding-right: 3rem; /* Add some padding to the right */
+  }
+  
+  .settings {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settings label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .settings input {
+    padding: 0.25rem;
+    margin-left: 0.5rem;
+  }
+  
+  .signup-grid {
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #D4EDFF;
+    grid-template-areas:
+      "title"
+      "email"
+      "password"
+      "button"
+      "google"
+      "signup";
+    transition: width 0.3s, height 0.3s; /* Smooth transition for size changes */
+  }
+  
+  .signup-title {
+    grid-area: title;
+    text-align: center;
+  }
+
+  .signup-title h1{
+    font-size: 40px;
+  }
+
+  .signup-title p {
+    font-size: 15px;
+  }
+
+  .signup-title img{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .signup-email,
+  .signup-password,
+  .signup-nama,
+  .signup-Confirmation {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup-email label,
+  .signup-password label,
+  .signup-nama label,
+  .signup-Confirmation label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .signup-email input,
+  .signup-password input,
+  .signup-nama input,
+  .signup-Confirmation input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup-button {
+    text-align: center;
+  }
+  
+  .signup-button button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .signup-google {
+    text-align: center;
+  }
+  
+  .google-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #db4437;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .signup-signup {
+    text-align: center;
+  }
+  
+  .signup-signup a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .signup-signup a:hover {
+    text-decoration: underline;
+  }
+  
