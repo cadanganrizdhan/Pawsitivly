@@ -16,10 +16,18 @@
 
 .logow {
   display: flex;
-  font-weight: 700;
-  font-size: 2rem;
+  align-items: center;
+  padding: 5px; /* Adjusted padding */
   margin-left: 1.5rem;
 }
+
+.logow-img {
+  width: 10px; /* Adjust the width to make the image smaller */
+  max-width: 10px;
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add some spacing if necessary */
+}
+
 
 .menuw nav ul {
   margin-right: 10px;
@@ -64,7 +72,7 @@
   top: 0;
   width: 100%;
   background-color: transparent;
-  padding: 20px 0;
+  padding: 5px 0;
   z-index: 1000;
   transition: background-color 0.4s ease-in-out;
 }

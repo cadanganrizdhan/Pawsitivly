@@ -1,12 +1,12 @@
 #faq-container {
-  background-image: url('../assets/bgfaq.png');
+  background-image: url('../assets/bgfaq.png') fixed top center;
   background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
   background-position: center;
   display: flex;
 }
 
-.faq-left{
-  width: 55%;
+.faq-left {
+  width: 100%;
 }
 
 .faq-right {
@@ -51,15 +51,7 @@
   content: '-';
 }
 
-.faq-form {
-  display: grid; /* Menggunakan grid layout */
-  grid-template-columns: 1fr; /* Satu kolom */
-  gap: 20px; /* Jarak antar elemen */
-  padding: 50px;
-  background-color: transparent;
-  max-width: 800px; /* Lebar maksimum grid */
-  margin: 0 auto; /* Agar berada di tengah-tengah */
-}
+
 
 .faq-form h2 {
   text-align: center; /* Menempatkan judul di tengah */
@@ -72,25 +64,24 @@
   gap: 15px; /* Jarak antar inputan */
 }
 
-.faq-form input[type="text"],
-.faq-form input[type="email"],
-.faq-form input[type="message"] {
+.faq-form input[type='text'],
+.faq-form input[type='email'],
+.faq-form input[type='message'] {
   padding: 10px; /* Padding di dalam inputan */
   border: 1px solid #ccc; /* Warna border inputan */
   border-radius: 5px; /* Membulatkan sudut */
   width: 100%; /* Lebar penuh */
 }
 
-.faq-form input[type="message"] {
+.faq-form input[type='message'] {
   height: 150px; /* Tinggi untuk input pesan */
 }
 
 .faq-form button {
-  padding: 15px 15px; /* Padding di dalam tombol */
-  width: 30%;
+  padding: 15px 15px; /* Padding di dalam tombol */  
   border: none; /* Menghapus border default tombol */
   border-radius: 5px; /* Membulatkan sudut */
-  background-color: #331B3B; /* Warna background tombol */
+  background-color: #331b3b; /* Warna background tombol */
   color: #fff; /* Warna teks tombol */
   cursor: pointer; /* Mengubah cursor menjadi pointer */
   font-size: 12px; /* Ukuran font tombol */
