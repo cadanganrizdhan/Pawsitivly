@@ -15,6 +15,9 @@
     background-position: center;
 }
 .article-page {
+    background-image: url('../assets/bglist1.png');
+    background-size: cover;
+    background-position: center;
     margin-top: auto;
     display: flex;
     max-width: 100%;

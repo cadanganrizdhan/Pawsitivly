@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from '../components/Navbar.jsx'
+import Navbarw from '../components/Navbarw.jsx'
 import Footer from '../components/Footer.jsx'
 import logo from '../assets/blog1.png'
 import logo1 from '../assets/search.png'
@@ -14,8 +14,16 @@ const Isiblog2 = () => {
   return (
     <>
     <div>
-      <Navbar/>
+      <Navbarw/>
     </div>
+    <section id="bio-blog">
+        <div className="text">
+          <h1>
+            <b>Blog</b>
+          </h1>
+          <p>All About Your Pet</p>
+        </div>
+    </section>
     <div className="article-page">
         <div className="content">
             <h1>MAKANAN BERBAHAYA UNTUK HEWAN PELIHARAAN</h1>
