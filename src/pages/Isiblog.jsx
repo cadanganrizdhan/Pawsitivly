@@ -45,28 +45,28 @@ const Isiblog = () => {
                 </div>
             </div>    
             <div className="sidebar-articles">
-                <h2>Artikel Terkait</h2>
+                {/* <h2>Artikel Terkait</h2> */}
                 <div className="sidebar-article">
                     <img src={logo3} alt="Artikel 2" />
                     <p>Kesehatan Mental Hewan Peliharaan</p>
                 </div>
             </div>
             <div className="sidebar-articles">
-                <h2>Artikel Terkait</h2>
+                {/* <h2>Artikel Terkait</h2> */}
                 <div className="sidebar-article">
                     <img src={logo4} alt="Artikel 3" />
                     <p>Merawat Hewan Peliharaan Dimusim Panas</p>
                 </div>
             </div>
             <div className="sidebar-articles">
-                <h2>Artikel Terkait</h2>
+                {/* <h2>Artikel Terkait</h2> */}
                 <div className="sidebar-article">
                     <img src={logo5} alt="Artikel 4" />
                     <p>Pentingnya Vaksinasi Untuk Hewan Peliharaan</p>
                 </div>
             </div>
             <div className="sidebar-articles">
-                <h2>Artikel Terkait</h2>
+                {/* <h2>Artikel Terkait</h2> */}
                 <div className="sidebar-article">
                     <img src={logo6} alt="Artikel 5" />
                     <p>Perawatan Gigi dan Mulut Pada Hewan</p>

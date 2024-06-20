@@ -46,7 +46,7 @@ body{
 }
 
 #Grid {
-  background-color: transparent !important;
+
   background-image: url('../assets/background2.png') fixed top center; /* Ganti 'gambar.jpg' dengan URL atau path ke gambar yang ingin Anda gunakan */
   background-size: cover; /* Untuk memastikan gambar meliputi seluruh area latar belakang */
   background-position: center;
