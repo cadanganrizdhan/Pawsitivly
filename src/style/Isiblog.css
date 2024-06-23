@@ -1,4 +1,12 @@
-body {
+#bio-blog {
+    background-image: url('../assets/bglist.png');
+    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+    background-position: center;
+    display: flex;
+    height: 90vh;
+  }
+  
+#Isiblog {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -7,6 +15,10 @@ body {
     background-position: center;
 }
 .article-page {
+    background-image: url('../assets/bglist1.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: auto;
     display: flex;
     max-width: 100%;
     padding: 20px;

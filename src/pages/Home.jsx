@@ -20,8 +20,7 @@ const Beranda = () => {
     <>
       <div>
         <Navbar />
-      </div>
-
+      </div>  
       <section id="BERANDA" className=" container mx-auto w-full">
         <div className="pt-[7rem] relative -left-5">
           <img src={Logo1} alt="text" className="pt-7 object-contain" />
@@ -38,7 +37,7 @@ const Beranda = () => {
       </section>
 
       {/* Bagian Grid */}
-      <section>
+      <section id = "Grid">
         <div className="text-grid pt-11 relative -left-5">
           <img
             src={bg2}
@@ -75,7 +74,7 @@ const Beranda = () => {
             <div className="border rounded-md border-slate-400 p-5 w-full md:max-w-[20rem]">
               <img src={loc} alt="" />
               <a href="">
-                <h4>Vet Vlinic Location</h4>
+                <h4>Vet Clinic Location</h4>
               </a>
               <p className="text-sm text-left">Batam city street?</p>
             </div>
@@ -94,8 +93,7 @@ const Beranda = () => {
       </section>
 
       {/* Bagian Easy */}
-      <section
-        id="Easy"
+      <section id="Grid"
         className="container mx-auto flex flex-col  gap-5 md:gap-8 lg:flex-row relative -left-5 pt-[7rem]"
       >
         <img
