@@ -6,7 +6,6 @@ import Listdokter from "./pages/Listdokter";
 import Signup from "./pages/Signup";
 import Forumdiskusi from "./pages/Forumdiskusi";
 import Isiblog from "./pages/Isiblog";
-import Isiblog2 from "./pages/Isiblog2";
 import Listblog from "./pages/Listblog";
 import Bookcal from "./pages/Bookcal";
 import Booktime from "./pages/Booktime";
