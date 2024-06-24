@@ -140,7 +140,7 @@ body{
 }
 
 #Card {
-  background-image: url('../assets/bgblok.png') fixed top center;
+  background-image: url('../assets/bgblok.png') ;
   background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
   background-position: center; /* Mengatur posisi gambar agar berada di tengah */
 }
