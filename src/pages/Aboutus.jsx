@@ -8,7 +8,7 @@ const Aboutus = () => {
   return (
     <>
       <div>
-        <Navbarw />
+        <Navbarw/>
       </div>
       <section id="bio">
         <div className="text">
