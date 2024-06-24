@@ -10,7 +10,6 @@ import Listblog from "./pages/Listblog";
 import Bookcal from "./pages/Bookcal";
 import Booktime from "./pages/Booktime";
 import Bookfix from "./pages/Bookfix";
-import Tambahforumdiskusi from "./pages/Tambahforumdiskusi";
 import Login from "./pages/Login";
 import Profil from "./components/Profil";
 import Profilpost from "./pages/Profilpost";
