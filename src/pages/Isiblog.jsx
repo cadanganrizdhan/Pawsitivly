@@ -10,7 +10,7 @@ import logo5 from '../assets/list5.png'
 import logo6 from '../assets/list6.png'
 import '../style/Isiblog.css'
 
-const Isiblog2 = () => {
+const Isiblog = () => {
   return (
     <>
     <div>
@@ -89,4 +89,4 @@ const Isiblog2 = () => {
   )
 }
 
-export default Isiblog2
+export default Isiblog

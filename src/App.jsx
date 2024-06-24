@@ -10,13 +10,13 @@ import Listblog from "./pages/Listblog";
 import Bookcal from "./pages/Bookcal";
 import Booktime from "./pages/Booktime";
 import Bookfix from "./pages/Bookfix";
-import Tambahforumdiskusi from "./pages/Tambahforumdiskusi";
 import Login from "./pages/Login";
 import Profil from "./components/Profil";
 import Profilpost from "./pages/Profilpost";
 import Profilrep from "./pages/Profilrep";
 import Profileapp from "./pages/Profileapp";
-import Isiblog2 from "./pages/Isiblog2";
+import Map from "./pages/Map";
+import Tambahforumdiskusi from "./pages/Tambahforumdiskusi";
 
 const App = () => {
   return (
