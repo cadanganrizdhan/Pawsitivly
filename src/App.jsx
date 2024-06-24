@@ -16,7 +16,8 @@ import Profil from "./components/Profil";
 import Profilpost from "./pages/Profilpost";
 import Profilrep from "./pages/Profilrep";
 import Profileapp from "./pages/Profileapp";
-import Isiblog2 from "./pages/Isiblog2";
+import Map from "./pages/Map";
+import Tambahforumdiskusi from "./pages/Tambahforumdiskusi";
 
 const App = () => {
   return (
