@@ -15,7 +15,8 @@ import Profil from "./components/Profil";
 import Profilpost from "./pages/Profilpost";
 import Profilrep from "./pages/Profilrep";
 import Profileapp from "./pages/Profileapp";
-import Map from "./pages/Map";
+//import Map from "./pages/Map";
+import Lokasiklinikterdekat from './pages/Lokasiklinikterdekat';
 import Tambahforumdiskusi from "./pages/Tambahforumdiskusi";
 
 const App = () => {
@@ -39,7 +40,7 @@ const App = () => {
         <Route path="/Profilpost" element={<Profilpost />} />
         <Route path="/Profilrep" element={<Profilrep />} />
         <Route path="/Profileapp" element={<Profileapp/>} />
-        <Route path="/Map" element={<Map />} />
+        {/* <Route path="/Map" element={<Map />} /> */}
         <Route path="/Lokasiklinikterdekat" element={<Lokasiklinikterdekat />} />
       </Routes>
     </Router>
