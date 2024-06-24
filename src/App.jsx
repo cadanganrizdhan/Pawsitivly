@@ -6,6 +6,7 @@ import Listdokter from "./pages/Listdokter";
 import Signup from "./pages/Signup";
 import Forumdiskusi from "./pages/Forumdiskusi";
 import Isiblog from "./pages/Isiblog";
+import Isiblog2 from "./pages/Isiblog2";
 import Listblog from "./pages/Listblog";
 import Bookcal from "./pages/Bookcal";
 import Booktime from "./pages/Booktime";
@@ -16,7 +17,7 @@ import Profil from "./components/Profil";
 import Profilpost from "./pages/Profilpost";
 import Profilrep from "./pages/Profilrep";
 import Profileapp from "./pages/Profileapp";
-
+import Isiblog2 from "./pages/Isiblog2";
 
 const App = () => {
   return (
@@ -39,6 +40,8 @@ const App = () => {
         <Route path="/Profilpost" element={<Profilpost />} />
         <Route path="/Profilrep" element={<Profilrep />} />
         <Route path="/Profileapp" element={<Profileapp/>} />
+        <Route path="/Map" element={<Map />} />
+        <Route path="/Lokasiklinikterdekat" element={<Lokasiklinikterdekat />} />
       </Routes>
     </Router>
   );

@@ -63,7 +63,7 @@ const Navbar = () => {
                         <a href="Listdokter">Online Consultation</a>
                       </li>
                       <li>
-                        <a href="Map">Nearest Vet and Petshop</a>
+                        <a href="Lokasiklinikterdekat">Nearest Vet and Petshop</a>
                       </li>
                     </ul>
                   )}

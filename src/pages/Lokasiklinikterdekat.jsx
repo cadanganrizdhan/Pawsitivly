@@ -1,13 +1,12 @@
 import React from 'react'
 import Navbar from '../components/Navbar.jsx'
 import Footer from '../components/Footer.jsx'
-import bgForm from './assets/bglist1.png';
-import mapImg from './assets/map.png';
-import locationIcon from './assets/v1.png';
-import phoneIcon from './assets/v2.png';
-import clockIcon from './assets/v3.png';
-import calendarIcon from './assets/v4.png';
-import Navbar from '../components/Navbar';
+import bgForm from '../assets/bglist1.png';
+import mapImg from '../assets/map.png';
+import locationIcon from '../assets/v1.png';
+import phoneIcon from '../assets/v2.png';
+import clockIcon from '../assets/v3.png';
+import calendarIcon from '../assets/v4.png';
 import '../style/Lokasiklinikterdekat.css'
 
 const Lokasiklinikterdekat = () => {

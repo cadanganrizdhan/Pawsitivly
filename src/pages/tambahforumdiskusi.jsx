@@ -7,7 +7,7 @@ const Tambahforumdiskusi = () => {
   return (
     <>
     <div>
-      <Navbar />
+      <Navbar/>
     </div>
     <main>
       <div className="post-thread">
