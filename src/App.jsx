@@ -16,8 +16,7 @@ import Profil from "./components/Profil";
 import Profilpost from "./pages/Profilpost";
 import Profilrep from "./pages/Profilrep";
 import Profileapp from "./pages/Profileapp";
-import Map from "./pages/Map";
-import Lokasiklinikterdekat from "./pages/Lokasiklinikterdekat";
+import Isiblog2 from "./pages/Isiblog2";
 
 const App = () => {
   return (
@@ -30,7 +29,6 @@ const App = () => {
         <Route path="/Signup" element={<Signup />} />
         <Route path="/Forumdiskusi" element={<Forumdiskusi />} />
         <Route path="/Isiblog" element={<Isiblog />} />
-        <Route path="/Isiblog2" element={<Isiblog2 />} />
         <Route path="/Listblog" element={<Listblog />} />
         <Route path="/Bookcal" element={<Bookcal />} />
         <Route path="/Booktime" element={<Booktime />} />
