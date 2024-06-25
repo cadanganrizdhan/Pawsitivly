@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import '../style/Navbar.css';
-import logo from '../assets/logowhite.png';
-import logoblack from '../assets/logo.png';
+import '../style/Navbarw.css';
+import logow from '../assets/logowhite.png';
+import logo from '../assets/logo.png';
 
 const Navbarw = () => {
   const [fix, setFix] = useState(false);
@@ -41,9 +41,9 @@ const Navbarw = () => {
             <div
               className={`logo  ${
                 fix ? 'w-[14rem]' : 'w-[20rem]'
-              } transition-all object-cover w-[14rem]`}
+              } transition-all object-cover`}
             >
-              <img src={fix ? logoblack : logo} alt="Logo" />
+              <img src={fix ? logo : logow} alt="Logo" />
             </div>
             <div className="menu h-fit hidden lg:block">
               <ul>

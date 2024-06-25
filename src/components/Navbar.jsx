@@ -40,7 +40,7 @@ const Navbar = () => {
             <div
               className={`logo  ${
                 fix ? 'w-[14rem]' : 'w-[20rem]'
-              } transition-all object-cover w-[14rem]`}
+              } transition-all object-cover`}
             >
               <img src={logo} alt="Logo" />
             </div>
